@@ -11,7 +11,6 @@ Source:		http://prdownloads.sourceforge.net/podget/%{name}_%{version}.tar.bz2
 URL:		http://podget.sourceforge.net/
 License:	GPL
 Group:		Networking/News
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 Requires:	screen wget bittorrent
 BuildArch:	noarch
 
