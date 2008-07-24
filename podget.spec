@@ -1,6 +1,6 @@
 %define name	podget
 %define version	0.5.8
-%define release %mkrel 1
+%define release %mkrel 3
 
 Name: 	 	%{name}
 Summary: 	Simple podcast aggregator
