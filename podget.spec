@@ -1,6 +1,6 @@
 %define name	podget
 %define version	0.5.8
-%define release %mkrel 4
+%define release %mkrel 5
 
 Name: 	 	%{name}
 Summary: 	Simple podcast aggregator
@@ -9,7 +9,7 @@ Release: 	%{release}
 
 Source:		http://prdownloads.sourceforge.net/podget/%{name}_%{version}.tar.bz2
 URL:		http://podget.sourceforge.net/
-License:	GPL
+License:	GPLv2+
 Group:		Networking/News
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 Requires:	screen wget bittorrent
