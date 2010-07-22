@@ -1,13 +1,13 @@
 %define name	podget
-%define version	0.5.8
-%define release %mkrel 5
+%define version	0.6
+%define release %mkrel 1
 
 Name: 	 	%{name}
 Summary: 	Simple podcast aggregator
 Version: 	%{version}
 Release: 	%{release}
 
-Source:		http://prdownloads.sourceforge.net/podget/%{name}_%{version}.tar.bz2
+Source:		http://prdownloads.sourceforge.net/podget/%{name}-%{version}.tar.gz
 URL:		http://podget.sourceforge.net/
 License:	GPLv2+
 Group:		Networking/News
@@ -20,7 +20,7 @@ Podget is a simple podcast aggregator with support for RSS and Bittorrent
 feeds, folders and categories, and automatic playlist creation.
 
 %prep
-%setup -q -n %name
+%setup -q 
 perl -pi -e 's/get_torrents\=0/get_torrents\=1/' podget.sh
 	
 %install
