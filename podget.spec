@@ -1,7 +1,7 @@
 Summary:	Simple podcast aggregator
 Name:		podget
 Version: 	0.6.18
-Release: 	2
+Release: 	3
 License:	GPLv2+
 Group:		Networking/News
 URL:		http://podget.sourceforge.net/
