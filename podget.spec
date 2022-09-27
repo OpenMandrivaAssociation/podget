@@ -1,11 +1,11 @@
 Summary:	Simple podcast aggregator
 Name:		podget
-Version: 	0.6.18
-Release: 	3
+Version: 	0.9.0
+Release: 	1
 License:	GPLv2+
 Group:		Networking/News
 URL:		http://podget.sourceforge.net/
-Source0:	http://sourceforge.net/projects/podget/files/podget/podget-0.6.18/%{name}-%{version}.tar.gz
+Source0:	https://github.com/dvehrs/podget/archive/refs/tags/v%{version}.tar.gz
 
 BuildArch:	noarch
 Requires:	screen
