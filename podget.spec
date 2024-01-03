@@ -1,6 +1,6 @@
 Summary:	Simple podcast aggregator
 Name:		podget
-Version: 	0.9.1
+Version: 	0.9.3
 Release: 	1
 License:	GPLv2+
 Group:		Networking/News
