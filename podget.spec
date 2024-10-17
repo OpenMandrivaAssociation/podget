@@ -4,7 +4,7 @@ Version: 	0.9.3
 Release: 	1
 License:	GPLv2+
 Group:		Networking/News
-URL:		http://podget.sourceforge.net/
+URL:		https://podget.sourceforge.net/
 Source0:	https://github.com/dvehrs/podget/archive/refs/tags/v%{version}.tar.gz
 
 BuildArch:	noarch
